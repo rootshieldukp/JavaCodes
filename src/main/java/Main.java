@@ -4,6 +4,7 @@ import basics.arrayCodes.FindMaxAndMinInAnArray;
 import basics.arrayCodes.FindTheSecondLargestAndSecondSmallestElement;
 import basics.stringCodes.ReverseString;
 import iqa.FindMaxConsecutiveOnes;
+import iqa.OccurrencesCount;
 
 import java.sql.SQLOutput;
 
@@ -14,10 +15,7 @@ public class Main {
         int[] intarr = {2,3,5,8,1,6,7};
 
         String str = "ab abc abcd ab abc abcd ab abcde abc abc";
-        CountFrequencyUsingMap.printFrequencyOfWords(str);
-        CountFrequencyUsingMap.printWordWithMaximumCountInString(str);
-        CountFrequencyUsingMap.printFrequencyOfAlphabets(str);
-
+        OccurrencesCount.printWordOccurrences(str);
 
     }
 }
